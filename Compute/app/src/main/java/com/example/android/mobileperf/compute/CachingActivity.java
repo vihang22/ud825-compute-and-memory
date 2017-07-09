@@ -75,6 +75,7 @@ public class CachingActivity extends Activity {
             prev = current;
             current = newValue;
         }
+        Log.i(LOG_TAG, "inside computeFiboncci");
         return current;
     }
 }
